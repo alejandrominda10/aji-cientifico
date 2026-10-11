@@ -10,7 +10,7 @@ const nosotrosContent : Integrante[] = [
   {titulo: "Angelica Criollo",descripcion: "Biologa."},
   {titulo: "Juliana Torres",descripcion: "Biologa."},
   {titulo: "Yadira Canacúan",descripcion: "Biologa."},
-  {titulo: "Alejandra Archundia",descripcion: "Biologa."},
+  {titulo: "Alejandra Archundia",descripcion: "Biologa"},
 ];
 
 
