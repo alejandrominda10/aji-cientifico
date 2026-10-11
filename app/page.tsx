@@ -1,9 +1,11 @@
+import TarjetaArticulo from "@/components/TerjetaArticulo";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div className="flex flex-col flex-1 items-center justify-center bg-beige font-sans dark:bg-black">
+      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white sm:items-start">
         <Image
           className="dark:invert h-5 w-[100px]"
           src="/next.svg"
@@ -62,6 +64,13 @@ export default function Home() {
           >
             Documentation
           </a>
+        </div>
+        <div className="mt-16 flex w-full max-w-3xl items-center justify-between sm:mt-32">
+          <Link href="/astronomia" className="flex items-center gap-2 text-sm font-medium text-zinc-950 dark:text-zinc-50">
+          Aprender más sobre Astronomía
+          </Link>
+          <TarjetaArticulo titulo="Fisica cuantica"
+          resumen="La fisuca cuantica es ..."/>
         </div>
       </main>
     </div>
